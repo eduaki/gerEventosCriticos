@@ -37,6 +37,11 @@ int alturaNo(Node *no)
   return no->altura;
 }
 
+int alturaArvore(Node *raiz)
+{
+  return alturaNo(raiz);
+}
+
 // cria um novo no
 Node *criaNo(Event *valor)
 {
