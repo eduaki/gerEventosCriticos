@@ -78,7 +78,7 @@ int main()
       if (nodeVerif == NULL)
         printf("\nO evento (%d) foi deletado com sucesso!\n", idEvento);
       else
-        printf("O evento precisa ser resolvido para ser apagado!");
+        printf("\nO evento precisa ser resolvido para ser apagado!\n");
     }
     break;
     case 6:

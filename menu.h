@@ -207,10 +207,10 @@ void menu_buscaAvancada()
       break;
     }
     case 0:
-      printf("Voltando...");
+      printf("Voltando...\n");
       break;
     default:
-      printf("Opcao invalida!");
+      printf("Opcao invalida!\n");
       break;
     }
 
