@@ -224,13 +224,13 @@ void menu_metricasArvore()
   do
   {
     printf("================================\n");
-    printf("      Métricas da Árvore        \n");
+    printf("      Metricas da Arvore        \n");
     printf("================================\n");
     printf("|1 - Altura total               |\n");
-    printf("|2 - Número total de nós        |\n");
-    printf("|3 - Número de eventos ativos   |\n");
-    printf("|4 - Fator balanceamento médio  |\n");
-    printf("|5 - Ver todas as métricas      |\n");
+    printf("|2 - Numero total de nos        |\n");
+    printf("|3 - Numero de eventos ativos   |\n");
+    printf("|4 - Fator balanceamento medio  |\n");
+    printf("|5 - Ver todas as metricas      |\n");
     printf("|0 - voltar ao menu principal   |\n");
     printf("================================\n");
     printf("| > ");
@@ -241,7 +241,7 @@ void menu_metricasArvore()
     case 1:
     {
       printf("\n===============================\n");
-      printf("         Altura da Árvore       \n");
+      printf("         Altura da Arvore       \n");
       printf("===============================\n");
       printf("Altura: %d\n\n", alturaArvore(arvore));
       break;
@@ -249,7 +249,7 @@ void menu_metricasArvore()
     case 2:
     {
       printf("\n===============================\n");
-      printf("      Número Total de Nós       \n");
+      printf("      Numero Total de Nos       \n");
       printf("===============================\n");
       printf("Total de nós: %d\n\n", contarNos(arvore));
       break;
@@ -257,7 +257,7 @@ void menu_metricasArvore()
     case 3:
     {
       printf("\n===============================\n");
-      printf("    Número de Eventos Ativos    \n");
+      printf("    Numero de Eventos Ativos    \n");
       printf("===============================\n");
       printf("Eventos ativos: %d\n\n", contarEventosAtivos(arvore));
       break;
@@ -265,7 +265,7 @@ void menu_metricasArvore()
     case 4:
     {
       printf("\n===============================\n");
-      printf("   Fator Balanceamento Médio    \n");
+      printf("   Fator Balanceamento Medio    \n");
       printf("===============================\n");
       printf("Fator médio: %.2f\n\n", fatorBalanceamentoMedio(arvore));
       break;
@@ -273,13 +273,13 @@ void menu_metricasArvore()
     case 5:
     {
       printf("\n===============================\n");
-      printf("        Todas as Métricas       \n");
+      printf("        Todas as Metricas       \n");
       printf("===============================\n");
       printf("Altura da arvore: %d\n", alturaArvore(arvore));
       printf("Total de nos: %d\n", contarNos(arvore));
       printf("Eventos ativos: %d\n", contarEventosAtivos(arvore));
-      printf("Fator balanceamento medio: %.2f\n\n", fatorBalanceamentoMedio(arvore));
-      printf("Total de rotacoes realizadas: %d", totalRotacoes);
+      printf("Fator balanceamento medio: %.2f\n", fatorBalanceamentoMedio(arvore));
+      printf("Total de rotacoes realizadas: %d\n\n", totalRotacoes);
       break;
     }
     case 0:
