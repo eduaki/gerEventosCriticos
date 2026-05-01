@@ -251,7 +251,7 @@ void menu_metricasArvore()
       printf("\n===============================\n");
       printf("      Numero Total de Nos       \n");
       printf("===============================\n");
-      printf("Total de nós: %d\n\n", contarNos(arvore));
+      printf("Total de nos: %d\n\n", contarNos(arvore));
       break;
     }
     case 3:
@@ -267,7 +267,7 @@ void menu_metricasArvore()
       printf("\n===============================\n");
       printf("   Fator Balanceamento Medio    \n");
       printf("===============================\n");
-      printf("Fator médio: %.2f\n\n", fatorBalanceamentoMedio(arvore));
+      printf("Fator medio: %.2f\n\n", fatorBalanceamentoMedio(arvore));
       break;
     }
     case 5:

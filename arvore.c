@@ -169,7 +169,7 @@ Node *inserirNo(Node *raiz, Event *evento)
   else
     return raiz;
 
-  raiz->altura = maior(alturaNo(raiz->esq), alturaNo(raiz->dir) + 1);
+  raiz->altura = maior(alturaNo(raiz->esq), alturaNo(raiz->dir)) + 1;
 
   int fb = fatorBalanceamento(raiz);
 
@@ -227,7 +227,7 @@ Node *remover(Node *raiz, Event *evento)
   if (raiz == NULL)
     return raiz;
 
-  raiz->altura = maior(alturaNo(raiz->esq), alturaNo(raiz->dir) + 1);
+  raiz->altura = maior(alturaNo(raiz->esq), alturaNo(raiz->dir)) + 1;
 
   int fb = fatorBalanceamento(raiz);
 
